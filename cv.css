@@ -1,0 +1,35 @@
+img {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.pic {
+  background-color: #2e4550;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+li {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+/* walpaper sur nom et intitulé */
+.name {
+  padding-top: 10%;
+  text-align: center;
+  width: auto;
+  height: 200px;
+  background-image: url("./sea.webp");
+  background-size: cover;
+}
+
+@media screen and (min-width: 420px) {
+  body {
+    background-color: black;
+  }
+}
