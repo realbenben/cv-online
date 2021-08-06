@@ -1,59 +1,85 @@
 img {
-  text-align: center;
-  margin: auto;
-  display: flex;
+	text-align: center;
+	margin: auto;
+	display: flex;
 }
 .pic {
-  background-color: #2e4550;
+	background-color: #2e4550;
 }
+.contact,
 p,
 h1,
 h2,
 h3,
 h4,
 li {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+	text-align: center;
 }
 li {
-  list-style: none;
+	list-style: none;
+	margin-left: -25px;
 }
 
 /* walpaper sur nom et intitulé */
 .name {
-  padding-top: 10%;
-  text-align: center;
-  width: auto;
-  height: 200px;
-  background-image: url("./sea.webp");
-  background-size: cover;
+	padding-top: 10%;
+	text-align: center;
+	width: auto;
+	height: 200px;
+	background-image: url("./sea.webp");
+	background-size: cover;
 }
 .img {
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 .left-side,
 .soft-skill {
-  padding-top: 10px;
-  background-color: #9dc6ec;
+	padding-top: 10px;
+	background-color: #9dc6ec;
 }
 .left-side {
-  padding-bottom: 5px;
+	padding-bottom: 5px;
 }
 .right-side {
-  padding-top: 10%;
-  background-color: #efefef;
+	padding-top: 10%;
+	background-color: #efefef;
 }
 .hobby {
-  padding-bottom: 5px;
+	padding-bottom: 5px;
 }
 footer {
-  padding-top: 10%;
-  background-color: #2e4550;
-  color: white;
+	padding-top: 10%;
+	padding-bottom: 10px;
+	background-color: #2e4550;
+	color: white;
+}
+/* .title + h2, */
+.title + h3 + h2 {
+	text-shadow: 1px 2px 2px #efefef;
+	color: aqua;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+/* ###### couleur les liens ######  */
+a {
+	color: #efefef;
+}
+a :hover {
+	background-color: #9dc6ec;
+}
+.ctc:hover {
+	background-color: #9dc6ec;
+}
+.icon {
+	padding-left: 1%;
+	padding-right: 1%;
+	color: white;
 }
 @media screen and (min-width: 420px) {
-  body {
-    background-color: black;
-  }
+	body {
+		background-color: black;
+	}
 }
