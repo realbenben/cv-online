@@ -136,5 +136,9 @@ button {
 	}
 	.right-side {
 		width: 100%;
+		padding-top: 2%;
+	}
+	.left-side > div {
+		padding-top: 10%;
 	}
 }
