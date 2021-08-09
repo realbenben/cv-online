@@ -40,6 +40,9 @@ li {
 	padding-bottom: 2%;
 	padding-top: 1%;
 }
+.img {
+	padding-bottom: 2%;
+}
 .contact,
 p,
 h1,
@@ -180,7 +183,7 @@ button:hover {
 	.dark {
 		position: absolute;
 		/* margin-left: -26%; */
-		left: 550px;
-		top: 4px;
+		left: 545px;
+		top: 8px;
 	}
 }
